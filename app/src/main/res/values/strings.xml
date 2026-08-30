@@ -12,7 +12,7 @@
     <string name="auto_br_reduce">Automatic brightness reducer</string>
     <string name="auto_br_reduce_desc">Variable brightness that will change depending on the data that are being shown on the screens.\nDisabling this can increase the risk of burn-in.\nThis parameter can be changed for each screen.</string>
     <string name="interactive_screens">Interactive screens</string>
-    <string name="interactif_screen">Interactive screen</string>
+    <string name="interactive_screen">Interactive screen</string>
     <string name="interactive_screens_desc">Enable interactivity with all screens. This parameter can be changed on each supported interactive screens.\nInteractive screens: Main screen, ETCS screen, SIAC screen\nNon-interactive screens: Info-LED screen</string>
     <string name="tvm_announce_shown">TVM Announce icons</string>
     <string name="tvm_sound">TVM Sound</string>

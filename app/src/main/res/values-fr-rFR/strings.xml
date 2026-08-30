@@ -9,7 +9,7 @@
     <string name="auto_br_reduce">Réduction automatique de luminosité</string>
     <string name="auto_br_reduce_desc">Varie la luminosité des écrans en fonction des données présentées.\nDésactiver ce paramètre peut augmenter les risques de burn-in sur l\'écran des différents appareils.</string>
     <string name="interactive_screens">Écrans interactif</string>
-    <string name="interactif_screen">Écran interactif</string>
+    <string name="interactive_screen">Écran interactif</string>
     <string name="interactive_screens_desc">Rendre interactif les différents écrans qui le supporte.\nÉcrans interactifs : Écran principal, Écran SIAC\nÉcrans non-interactifs : Écran ETCS, Écran voyants, Écran nanomètres</string>
     <string name="tvm_announce_shown">Affichage d\'annonce TVM</string>
     <string name="tvm_sound">Son TVM</string>
