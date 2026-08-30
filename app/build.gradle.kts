@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.serialization)
-
 }
 val ktorVersion: String by project
 android {
@@ -32,6 +31,25 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+    flavorDimensions += listOf("env", "devices")
+    productFlavors {
+        create("prod") {
+            dimension = "env"
+        }
+        create("dev") {
+            dimension = "env"
+            applicationIdSuffix = ".dev"
+            versionName = "1.0.0-1.5 Milgraze DEV"
+        }
+        create("phone") {
+            dimension = "devices"
+            versionName = "1.0.0-1.5 Milgraze Phone"
+        }
+        create("tablet") {
+            dimension = "devices"
+            versionName = "1.0.0-1.5 Milgraze Tablet"
+        }
+    }
 }
 
 dependencies {
@@ -45,6 +63,9 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
+    implementation("org.slf4j:slf4j-api:2.0.18")
+    implementation("com.github.tony19:logback-android:3.0.0")
+    runtimeOnly("org.slf4j:jul-to-slf4j:2.0.18")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)

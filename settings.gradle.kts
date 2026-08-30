@@ -24,4 +24,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "TGV 2N2"
 include(":app")
- 
