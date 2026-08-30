@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="generals">Généraux</string>
+    <string name="url_http">URL Serveur HTTP</string>
+    <string name="settings">Paramètres</string>
+    <string name="url_http_desc">Défini une URL HTTP pour accéder aux données du jeu.\nUn serveur HTTP est nécessaire.\nUne connexion internet est nécéssaire.</string>
+    <string name="not_http">L\'URL ne commence pas par \'http\'.</string>
+    <string name="auto_br_reduce">Réduction automatique de luminosité</string>
+    <string name="auto_br_reduce_desc">Varie la luminosité des écrans en fonction des données présentées.\nDésactiver ce paramètre peut augmenter les risques de burn-in sur l\'écran des différents appareils.</string>
+    <string name="interactive_screens">Écrans interactif</string>
+    <string name="interactif_screen">Écran interactif</string>
+    <string name="interactive_screens_desc">Rendre interactif les différents écrans qui le supporte.\nÉcrans interactifs : Écran principal, Écran SIAC\nÉcrans non-interactifs : Écran ETCS, Écran voyants, Écran nanomètres</string>
+    <string name="tvm_announce_shown">Affichage d\'annonce TVM</string>
+    <string name="tvm_sound">Son TVM</string>
+    <string name="tvm_announce_icons_desc">Change l\'aspect de l\'annonce TVM.\nActif : Annonce losange blanc sur fond gris\nNon-actif : Annonce carré blanc</string>
+    <string name="tvm_sound_desc">Activer ou non un son qui sera joué à chaque changement d\'aspect de la TVM.\nFréquence son : 900 Hz</string>
+    <string name="save">Sauvegarder</string>
+    <string name="welcome_desc">Bienvenue sur l\'application du TGV 2N2. Cette application vous permet de récupérer les informations du jeu en temps réel et de les afficher avec des écrans qui reproduisent ceux disponible sur le pupitre du train.</string>
+    <string name="welcome_desc_not_adapted">Cet appareil n\'est pas conçu pour être adapté avec cette application, ce qui reduit l\'immersion prévue.</string>
+    <string name="main_screen">Écran principal</string>
+    <string name="etcs_screen">Écran ETCS</string>
+    <string name="main_screen_test">Écran principal (TEST)</string>
+    <string name="etcs_screen_test">Écran ETCS (TEST)</string>
+</resources>
