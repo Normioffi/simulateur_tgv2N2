@@ -16,7 +16,7 @@
     <string name="tvm_announce_icons_desc">Changes the appearance of the TVM speed reduction announcement.\nActive: White diamond announcement on a gray background.\nInactive: White square announcement.</string>
     <string name="tvm_sound_desc">Enable a sound that will play in each changes of the TVM data that is being shown on the screen.\nSound frequency: 900 Hz</string>
     <string name="save">Save</string>
-    <string name="welcome_desc">Welcome in the TGV 2N2 application. This application will allow you to retreive in game data and shows them with different screens that actually use the TGV 2N2 in game.</string>
+    <string name="welcome_desc">Welcome in the TGV 2N2 application. This application will allow you to retrieve in game data and shows them with different screens that actually use the TGV 2N2 in game.</string>
     <string name="welcome_desc_not_adapted">This device is not very adapted for this app and will reduce immersive behavior.</string>
     <string name="main_screen">Main screen</string>
     <string name="etcs_screen">ETCS screen</string>
