@@ -22,4 +22,11 @@
     <string name="etcs_screen">ETCS screen</string>
     <string name="main_screen_test">Main screen (TEST)</string>
     <string name="etcs_screen_test">ETCS screen (TEST)</string>
+    <string name="speedometer">Speedometer</string>
+    <string name="needle">Needle</string>
+    <string name="tvm_hundred">TVM Hundred value</string>
+    <string name="tvm_ten">TVM Ten value</string>
+    <string name="tvm_one">TVM Decimal value</string>
+    <string name="mission">Mission</string>
+    <string name="key">Key</string>
 </resources>
