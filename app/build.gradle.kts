@@ -31,23 +31,17 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    flavorDimensions += listOf("env", "devices")
+    flavorDimensions += "devices"
     productFlavors {
-        create("prod") {
-            dimension = "env"
-        }
-        create("dev") {
-            dimension = "env"
-            applicationIdSuffix = ".dev"
-            versionName = "1.0.0-1.5 Milgraze DEV"
+
+        create("tablet") {
+            dimension = "devices"
+            applicationId = "fr.simulaniki.tgv2n2"
         }
         create("phone") {
             dimension = "devices"
-            versionName = "1.0.0-1.5 Milgraze Phone"
-        }
-        create("tablet") {
-            dimension = "devices"
-            versionName = "1.0.0-1.5 Milgraze Tablet"
+            versionNameSuffix = "-Phone"
+            applicationIdSuffix = ".phone"
         }
     }
 }
