@@ -44,6 +44,9 @@ android {
             applicationIdSuffix = ".phone"
         }
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -51,15 +54,16 @@ dependencies {
     implementation("io.ktor:ktor-client-android:${ktorVersion}")
     implementation("io.ktor:ktor-client-content-negotiation:${ktorVersion}")
     implementation("io.ktor:ktor-serialization-kotlinx-json:${ktorVersion}")
+    implementation(libs.androidx.recyclerview)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
-    implementation("org.slf4j:slf4j-api:2.0.18")
-    implementation("com.github.tony19:logback-android:3.0.0")
-    runtimeOnly("org.slf4j:jul-to-slf4j:2.0.18")
+    implementation(libs.slf4j.api)
+    implementation(libs.logback.android)
+    runtimeOnly(libs.jul.to.slf4j)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
